@@ -8,10 +8,17 @@
 </head>
 <body>
     <h1>Nos articles</h1>
+    {{-- <?// if (DB::connection()->getPdo()) {
+       // echo "Connexion réussi à la base de données =>"
+        //DatabaseName();
+    //} ?> --}}
     <ul>
         @foreach ($articles as $article)
             <li>{{ $article['title'] }}</li>
         @endforeach
     </ul>
+    <div>
+        @yield('content')
+    </div>
 </body>
 </html>
