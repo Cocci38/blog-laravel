@@ -11,7 +11,7 @@
 
     <tr>
 
-        <th>C:</th>Contenu
+        <th>Contenu</th>
         <td>{{ $article->content }}</td>
 
     </tr>

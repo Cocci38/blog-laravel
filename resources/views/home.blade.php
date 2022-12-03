@@ -12,11 +12,11 @@
        // echo "Connexion réussi à la base de données =>"
         //DatabaseName();
     //} ?> --}}
-    <ul>
+    {{-- <ul>
         @foreach ($articles as $article)
             <li>{{ $article['title'] }}</li>
         @endforeach
-    </ul>
+    </ul> --}}
     <div>
         @yield('content')
     </div>

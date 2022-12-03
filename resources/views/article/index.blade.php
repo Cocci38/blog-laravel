@@ -44,6 +44,8 @@
                 <td>{{ $index }}</td>
                 <td>{{ $article->title }}</td>
                 <td>{{ $article->content }}</td>
+                <td>{{ $article->created_at }}</td>
+                <td>{{ $article->updated_at }}</td>
                 <td>
 
                     <form action="{{ url('article/'. $article->id) }}" method="POST">

@@ -58,7 +58,7 @@ class ArticleController extends Controller
     public function edit($id)
     {
         $article = Article::findOrFail($id);
-        return view('article.show', compact('article'));
+        return view('article.edit', compact('article'));
     }
 
     /**

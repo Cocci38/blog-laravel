@@ -29,14 +29,14 @@
         <div class="form-group mb-3">
 
             <label for="title">Titre:</label>
-            <input type="text" class="form-control" id="title" placeholder="Entrer Nom" name="nom" value="{{ $article->nom }}">
+            <input type="text" name="title" class="form-control" id="title" placeholder="Entrer un titre"  value="{{ $article->title }}">
 
         </div>
 
         <div class="form-group mb-3">
 
             <label for="content">Contenu :</label>
-            <input type="text" class="form-control" id="content" placeholder="Entrer Company" name="company" value="{{ $article->company }}">
+            <input type="text" name="content" class="form-control" id="content" placeholder="Entrer un contenu" value="{{ $article->content }}">
 
         </div>
         

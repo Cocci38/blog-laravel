@@ -26,13 +26,13 @@
 
         <div class="form-group mb-3">
             <label for="title">Titre :</label>
-            <input type="text" class="form-control" id="title" placeholder="Entrez un nom" name="nom">
+            <input type="text" name="title" class="form-control" id="title" placeholder="Entrez un nom">
         </div>
 
         <div class="form-group mb-3">
 
             <label for="content">Contenu:</label>
-            <input type="text" class="form-control" id="content" placeholder="Company" name="company">
+            <input type="text" name="content" class="form-control" id="content" placeholder="Company">
 
         </div>
 
