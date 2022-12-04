@@ -17,5 +17,6 @@
     </tr>
 
 </table>
+<button type="button"><a class="btn btn-info" href="{{ url('/') }}">Retour</a></button>
 
 @endsection

@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::controller(ArticleController::class)->group(function () {
 
     Route::get('/', 'index');
-    Route::get('/article/create', 'create');
+    Route::get('/article/edit', 'create');
     Route::get('/article/{id}', 'show');
     Route::get('/article/{id}/edit', 'edit');
 

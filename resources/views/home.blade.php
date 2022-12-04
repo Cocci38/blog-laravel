@@ -7,7 +7,11 @@
     <title>Mon mini-blog</title>
 </head>
 <body>
-    <h1>Nos articles</h1>
+
+    <menu>
+        <li><button type="button"><a class="btn btn-info" href="{{ url('/') }}">Liste des articles</a></button></li>
+        <li><button type="button"><a class="btn btn-success" href="{{ url('article/edit') }}">Ajouter</a></button></li>
+    </menu>
     {{-- <?// if (DB::connection()->getPdo()) {
        // echo "Connexion réussi à la base de données =>"
         //DatabaseName();

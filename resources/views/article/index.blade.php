@@ -11,7 +11,7 @@
         </div>
 
         <div class="col-lg-1">
-            <a class="btn btn-success" href="{{ url('article/create') }}">Ajouter</a>
+            <button type="button"><a class="btn btn-success" href="{{ url('article/edit') }}">Ajouter</a></button>
         </div>
 
     </div>
@@ -52,8 +52,8 @@
                         @csrf
                         @method('DELETE')
 
-                        <a class="btn btn-info" href="{{ url('article/'. $article->id) }}">Voir</a>
-                        <a class="btn btn-primary" href="{{ url('article/'. $article->id .'/edit') }}">Modifier</a>
+                        <button type="button"><a class="btn btn-info" href="{{ url('article/'. $article->id) }}">Voir</a></button>
+                        <button type="button"><a class="btn btn-primary" href="{{ url('article/'. $article->id .'/edit') }}">Modifier</a></button>
 
                         <button type="submit" class="btn btn-danger">Supprimer</button>
 
